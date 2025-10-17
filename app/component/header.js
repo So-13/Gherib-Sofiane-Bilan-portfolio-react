@@ -1,9 +1,17 @@
-
-
+import { usePathname } from "next/navigation";
 
 export default function Header() {
+    const pathname = usePathname();
+
+    const links = [
+        { title: 'HOME', path: '/' },
+        { title: 'SERVICES', path: '/services' },
+        { title: 'PORTFOLIO', path: '/portfolio' },
+        { title: 'CONTACT', path: '/contact' },
+        { title: 'MENTION LEGALES', path: '/mentionleg' },
+    ];
+
     return (
-       
         <header>
             <nav className="navbar navbar-expand-lg bg-dark" data-bs-theme="dark">
                 <div className="container-fluid">
@@ -13,21 +21,11 @@ export default function Header() {
                     </button>
                     <div className="collapse navbar-collapse d-lg-flex justify-content-lg-end" id="navbarNav">
                         <ul className="navbar-nav">
-                            <li className="nav-item">
-                                <a className="nav-link text-light is-active" href="/">HOME</a>
-                            </li>
-                            <li className="nav-item">
-                                <a className="nav-link text-light" href="/services">SERVICES</a>
-                            </li>
-                            <li className="nav-item">
-                                <a className="nav-link text-light" href="/portfolio">PORTFOLIO</a>
-                            </li>
-                            <li className="nav-item">
-                                <a className="nav-link text-light " href="/contact">CONTACT</a> 
-                            </li>
-                            <li className="nav-item">
-                                <a className="nav-link text-light" href="/mentionleg">MENTION LEGALES</a>
-                            </li>
+                            {links.map((element) => (
+                                <li key={element.path} className="nav-item">
+                                    <a className={`nav-link text-light ${pathname === element.path ? "is-active" : ""}`} href={element.path}>{element.title}</a>
+                                </li>
+                            ))}
                         </ul>
                     </div>
                 </div>

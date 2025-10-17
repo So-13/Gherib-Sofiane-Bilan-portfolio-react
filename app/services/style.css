@@ -1,0 +1,60 @@
+
+img{width: 100%;}
+
+.container{
+}
+h3{
+    font-style: bold;
+    padding-top: 20px;
+    padding-bottom: 0;
+}
+
+p{}
+
+.monoffre{
+    display: block;
+    justify-items: center;
+    padding-bottom: 30px;
+}
+
+
+
+
+
+
+.row
+{display: flex;
+   flex-direction: row;}
+
+div.card{
+    width: 450px ;
+    height: 100%;
+  
+
+}
+div.card:hover{
+    
+    background-color:#efefef;
+    box-shadow: 2px 2px 5px;}
+.boxis1{
+    padding: 30px;
+}
+.car-body{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 20px;
+}
+
+ svg{
+    text-align: center;
+    color: aquamarine;
+ }
+
+ .card-title{
+    font-style: bold;
+    text-align: center;
+ }
+ .card-text{
+    padding: 30px;
+ }

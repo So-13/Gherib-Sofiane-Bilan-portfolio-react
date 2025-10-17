@@ -1,4 +1,17 @@
+body {
+  font-family: 'Nunito Sans', sans-serif;
+  font-weight: 400; /* Corps du texte */
+}
 
+/* Titres avec gras 600 */
+h1, h2, h3, h4, h5, h6 {
+  font-weight: 600;
+}
+
+/* Balises strong avec gras 600 */
+strong {
+  font-weight: 600;
+}
 
 .is-active {
   font-weight: bold;

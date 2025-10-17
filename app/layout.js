@@ -1,19 +1,19 @@
 "use client"
-import { Geist, Geist_Mono } from "next/font/google";
+import { Nunito_Sans } from "next/font/google";
 import 'bootstrap/dist/css/bootstrap.min.css';
 import "./globals.css";
 import { useEffect } from "react";
+import Header from "./component/header";
+import Footer from "./component/footer";
+import "normalize.css";
 
 
 
-const geistSans = Geist({
-  variable: "--font-geist-sans",
+
+const nunitoSans = Nunito_Sans({
+  weight: ['400', '600'],
   subsets: ["latin"],
-});
-
-const geistMono = Geist_Mono({
-  variable: "--font-geist-mono",
-  subsets: ["latin"],
+  variable: "--font-nunito-sans",
 });
 
 // export const metadata = {
@@ -28,8 +28,10 @@ export default function RootLayout({ children }) {
 
   return (
     <html lang="fr">
-      <body className={`${geistSans.variable} ${geistMono.variable}`}>
+      <body className={`${nunitoSans.variable}`}>
+        <Header></Header>
         {children}
+        <Footer></Footer>
       </body>
     </html>
   );
