@@ -1,17 +1,18 @@
 "use client"
+import "normalize.css";
 import { Nunito_Sans } from "next/font/google";
 import 'bootstrap/dist/css/bootstrap.min.css';
 import "./globals.css";
 import { useEffect } from "react";
 import Header from "./component/header";
 import Footer from "./component/footer";
-import "normalize.css";
+
 
 
 
 
 const nunitoSans = Nunito_Sans({
-  weight: ['400', '600'],
+  weight: ['400', '600','700','800'],
   subsets: ["latin"],
   variable: "--font-nunito-sans",
 });
@@ -28,6 +29,10 @@ export default function RootLayout({ children }) {
 
   return (
     <html lang="fr">
+        <head>
+                 <link rel="icon" type="image/png" href="./anonym.png"></link>
+            </head>
+      
       <body className={`${nunitoSans.variable}`}>
         <Header></Header>
         {children}

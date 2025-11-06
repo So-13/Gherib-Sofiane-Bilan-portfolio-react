@@ -3,9 +3,9 @@ body {
   font-weight: 400; /* Corps du texte */
 }
 
-/* Titres avec gras 600 */
-h1, h2, h3, h4, h5, h6 {
-  font-weight: 600;
+/* Titres avec gras 700 */
+h1, h2, h3, h4, h5{
+  font-weight: 800;
 }
 
 /* Balises strong avec gras 600 */
@@ -48,7 +48,7 @@ ul a{
 }
 small{
   display: block;
-  font-size: 10px ;
+  font-size: 12px ;
   padding: 6px 0px;
 
 }
@@ -80,15 +80,13 @@ h1, h2{
  
 }
 h1{
-  font-size: 3.5em;
-}
-h2{
-  font-size: 2.7em;
-   padding-bottom: 70px;
+  font-size: 2.5em;
 }
 .modal-body{
   display: flex;
 }
+
+footer a:hover{font-weight: bolder;}
 
 
 

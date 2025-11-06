@@ -1,19 +1,14 @@
- 
- export default function Card({ title, subtitle, description,icone }) {
-    return (
-     
- <div className="card">
-  <div className="card-body">
-    {icone}
+
+export default function Card({ imgg, iconee, title, description, lienn, footerr }) {
+  return (
+
+    <div className="card">
+      {imgg}
+      <div className="card-body">
+        {iconee}
+      </div>
+      <h5 className="card-title">{title}</h5>
+      <p className="card-text ">{description}</p>
     </div>
-    <h5 className="card-title">{title}</h5>
-   
-    <p className="card-text">{description}</p>
-  
-  
-</div>
-
-
-
-
-    );  }
+  );
+}

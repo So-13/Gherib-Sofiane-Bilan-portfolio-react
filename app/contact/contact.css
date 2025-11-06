@@ -1,0 +1,67 @@
+
+.monoffre{
+    display: block;
+    justify-items: center;
+    padding-bottom: 20px;
+  }  
+p{
+    font-size: small;
+    width: 26em;
+}
+
+.border-bottom{
+  max-width: 100%;
+  margin-bottom: 40px;
+  margin-top: 10px;
+  
+}
+
+
+
+textarea{
+
+  border-color:#dee2e6;
+}
+.col-sm-12{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  width: 100%;
+}
+button {
+  margin: 10px 0px;
+}
+.bordure {
+  max-width: auto;
+  border: 1px solid white;
+  box-shadow: -5px 15px 20px rgba(226, 218, 218, 0.5),
+               5px 0px 20px rgba(198, 191, 191, 0.5);
+            
+               
+}
+.col-sm-12 {
+  max-width: auto;
+}
+
+
+.col-sm-12 h3{
+align-items: flex-start;
+}
+.btn{
+margin-left: 140px;
+ 
+}
+address a{color: black;}
+footer a{
+  color: white;
+}
+svg{
+  margin: 3px;
+}
+address{
+padding-right: 200px;
+}
+iframe{
+  width: auto;
+  height: 400px;
+}

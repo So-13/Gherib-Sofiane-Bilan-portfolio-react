@@ -13,9 +13,10 @@ export default function Header() {
 
     return (
         <header>
+          
             <nav className="navbar navbar-expand-lg bg-dark" data-bs-theme="dark">
                 <div className="container-fluid">
-                    <a className="navbar-brand text-light" href="#">JOHN DOE</a>
+                    <a className="navbar-brand text-light ps-5" href="#">JOHN DOE</a>
                     <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                         <span className="navbar-toggler-icon"></span>
                     </button>
