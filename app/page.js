@@ -1,7 +1,7 @@
 import Image from "next/image";
 import styles from "./page.module.css";
 import Link from 'next/link';
-import Modale from "./component/modale";
+
 
 
 
@@ -18,7 +18,7 @@ export default function Home() {
             En savoir plus
           </button>
   
-         <Modale></Modale>
+         
          
         </section>
 

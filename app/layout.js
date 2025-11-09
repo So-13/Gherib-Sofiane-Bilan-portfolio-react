@@ -12,7 +12,7 @@ import Footer from "./component/footer";
 
 
 const nunitoSans = Nunito_Sans({
-  weight: ['400', '600','700','800'],
+  weight: ['400', '600', '700', '800'],
   subsets: ["latin"],
   variable: "--font-nunito-sans",
 });
@@ -29,10 +29,6 @@ export default function RootLayout({ children }) {
 
   return (
     <html lang="fr">
-        <head>
-                 <link rel="icon" type="image/png" href="./anonym.png"></link>
-            </head>
-      
       <body className={`${nunitoSans.variable}`}>
         <Header></Header>
         {children}
