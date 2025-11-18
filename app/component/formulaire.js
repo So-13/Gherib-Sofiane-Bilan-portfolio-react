@@ -24,8 +24,8 @@ export default function Formulaire() {
       </div>
 
       <div className="form-group">
-        <label for="message"></label>
-        <textarea class="form-control" id="message" rows={12} placeholder=" Votre message"></textarea>
+        <label htmlFor="message"></label>
+        <textarea className="form-control" id="message" rows={12} placeholder=" Votre message"></textarea>
       </div>
 
       <button type="submit" className="btn btn-primary">Envoyer</button>

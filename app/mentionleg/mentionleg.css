@@ -3,19 +3,21 @@ html{
 }
 body{
   height: 100%;
-
-  
 }
 .monoffre{
     display: block;
     justify-items: center;
     padding-bottom: 20px;
   }  
+
   address a{color: black;}
+
   footer address a {color: white;}
+
   svg{
   margin: 3px;
 }
+
 main{
   display: flex;
   flex-direction: column;

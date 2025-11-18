@@ -53,8 +53,6 @@ export default function portfolio() {
 
 
       </main>
-
-      <h1>portfolio</h1>
     </div>
 
   )

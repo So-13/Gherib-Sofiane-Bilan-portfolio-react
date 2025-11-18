@@ -3,12 +3,11 @@ body {
   font-weight: 400; /* Corps du texte */
 }
 
-/* Titres avec gras 700 */
+/* Titres avec gras 700 ne correspond pas a la maquette */
 h1, h2, h3, h4, h5{
   font-weight: 800;
 }
 
-/* Balises strong avec gras 600 */
 strong {
   font-weight: 600;
 }

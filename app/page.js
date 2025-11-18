@@ -1,6 +1,7 @@
 import Image from "next/image";
 import styles from "./page.module.css";
 import Link from 'next/link';
+import Modale from "./component/modale";
 
 
 
@@ -13,18 +14,14 @@ export default function Home() {
         <section className=" imagefond w-100 ">
           <h1>Bonjour je suis John Doe</h1>
           <h2>Développeur web full stack</h2>
-          
+
           <button type="button" className="btn btn-danger mt-2" data-bs-toggle="modal" data-bs-target="#exampleModal">
             En savoir plus
           </button>
-  
-         
-         
+
+
+
         </section>
-
-
-
-
 
         <section className="container pb-1">
           <article className="row  my-3 pb-4">
@@ -71,6 +68,8 @@ export default function Home() {
 
 
       </main>
+
+      <Modale></Modale>
 
     </div>
 

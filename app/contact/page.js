@@ -65,10 +65,6 @@ export default function Services() {
       </main>
     </div>
 
-
-
-
-
   );
 }
 
