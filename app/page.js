@@ -42,24 +42,24 @@ export default function Home() {
               <h3 className="border-bottom border-3 border-bottom border-primary p-3">Mes compétence</h3>
               <span>HTML5 90%</span>
               <div className="progress mb-2">
-                <div className="progress-bar bg-danger" role="progressbar" style={{ width: '90%' }} aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+                <div className="progress-bar bg-danger" role="progressbar" style={{ width: "90%" }} aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
               </div>
               <span>CSS3 80%</span>
               <div className="progress mb-2">
 
-                <div className="progress-bar bg-info" role="progressbar" style={{ width: '80%' }} aria-valuenow="50" aria-valuemin="0" aria-valuemax="100"></div>
+                <div className="progress-bar bg-info" role="progressbar" style={{ width: "80%" }} aria-valuenow="50" aria-valuemin="0" aria-valuemax="100"></div>
               </div>
               <span>JAVASCRIPT 70%</span>
               <div className="progress mb-2">
-                <div className="progress-bar bg-warning" role="progressbar" style={{ width: '70%' }} aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
+                <div className="progress-bar bg-warning" role="progressbar" style={{ width: "70%" }} aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
               </div>
               <span>PHP 60%</span>
               <div className="progress mb-2">
-                <div className="progress-bar bg-success" role="progressbar" style={{ width: '60%' }} aria-valuenow="100" aria-valuemin="0" aria-valuemax="100"></div>
+                <div className="progress-bar bg-success" role="progressbar" style={{ width: "60%" }} aria-valuenow="100" aria-valuemin="0" aria-valuemax="100"></div>
               </div>
               <span>REACT 50%</span>
               <div className="progress mb-2">
-                <div className="progress-bar bg-info-dark" role="progressbar" style={{ width: '50%' }} aria-valuenow="100" aria-valuemin="0" aria-valuemax="100"></div>
+                <div className="progress-bar bg-info-dark" role="progressbar" style={{ width: "50%" }} aria-valuenow="100" aria-valuemin="0" aria-valuemax="100"></div>
               </div>
             </div>
 

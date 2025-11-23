@@ -1,3 +1,12 @@
+<h1>site présentation John Doe</h1>
+
+<p> futur développeur Web, John DOE termine sa formation de développeur web au CEF et souhaite pouvoir se présenter sur le 
+marché de l’emploi. 
+Ce site internet permet de le présenter sur le marché de l’emploi et rechercher un emploi.
+Le site est développé en HTML, CSS, avec l’utilisation du framework Bootstrap. 
+On ne peut pas vérifier au W3C car il n'y a pas de fichier HTML 
+</p>
+
 This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
 
 ## Getting Started
